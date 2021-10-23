@@ -9,4 +9,4 @@
 ### Image 2
 ![Image 2](https://github.com/saksham-kumar-14/twitter-clone/blob/master/twitter_clone_2.png)
 
-
+- It is not responsive for now, but I will definately make it in future. 
