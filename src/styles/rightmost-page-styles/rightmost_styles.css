@@ -1,0 +1,210 @@
+#rightmost-bar-section {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#rightmost-bar-search {
+  position: relative;
+}
+
+#rightmost-bar-search-icon-div {
+  position: absolute;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 30px;
+  top: 10px;
+}
+
+#rightmost-bar-search-icon {
+  width: 80%;
+  height: 40%;
+}
+
+#rightmost-bar-input {
+  width: 80%;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #f0f0f0;
+  margin: 10px 20px;
+  padding: 0px 40px;
+  outline: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#rightmost-bar-input::-webkit-input-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#rightmost-bar-input:-ms-input-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#rightmost-bar-input::-ms-input-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#rightmost-bar-input::placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#rightmost-bar-input:focus {
+  border: solid #1291e0 1px;
+  background-color: white;
+}
+
+.who-to-follow, .whats-happening {
+  font-size: 25px;
+}
+
+#rightmost-bar-news-div, #other-people-profiles {
+  margin: 10px 20px;
+  background-color: #f0f0f0;
+  width: 100%;
+  border-radius: 2rem;
+  padding: 15px 10px;
+}
+
+.other-people-profile {
+  cursor: pointer;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 50% 30%;
+      grid-template-columns: 20% 50% 30%;
+  margin: 5px;
+  padding: 15px 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border-radius: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.other-people-profile:hover {
+  background-color: gainsboro;
+}
+
+.other-people-profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 5rem;
+}
+
+.other-people-profile-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.other-people-follow-btn {
+  margin-left: 5px;
+  background-color: black;
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.other-people-follow-btn:hover {
+  background-color: #0f0f0f;
+}
+
+.other-people-profile-username {
+  color: #3c3c3c;
+}
+
+.other-people-profile-name {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.other-people-profile-name:hover {
+  text-decoration: underline;
+}
+
+.rightmost-news {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 1.5rem;
+}
+
+.rightmost-news:hover {
+  background-color: gainsboro;
+}
+
+.rightmost-news-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.rightmost-news-1a {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.rightmost-news-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.rightmost-small-heading {
+  color: #5a5a5a;
+  font-size: 15px;
+}
+
+.rightmost-heading {
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+}
+
+.rightmost-brief-description {
+  font-size: 13px;
+}
+
+.rightmost-image {
+  width: 75px;
+  border-radius: 1rem;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=rightmost_styles.css.map */

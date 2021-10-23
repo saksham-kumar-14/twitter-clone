@@ -1,0 +1,132 @@
+#rightmost-bar-section{
+    position: sticky;  
+}
+
+#rightmost-bar-search{
+    position: relative;
+}
+#rightmost-bar-search-icon-div{
+    position: absolute; 
+    height: 40px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;   
+    padding-left: 30px;
+    top: 10px;
+}#rightmost-bar-search-icon{
+    width: 80%;
+    height: 40%;
+}
+#rightmost-bar-input{
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(240,240,240);
+    margin: 10px 20px;
+    padding: 0px 40px;
+    outline: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.7s;
+}#rightmost-bar-input::placeholder{
+    font-family: 'Source Sans Pro', sans-serif;
+}#rightmost-bar-input:focus{
+    border: solid #1291e0 1px;
+    background-color: white;
+}
+
+.who-to-follow , .whats-happening{
+    font-size: 25px;
+}
+#rightmost-bar-news-div, #other-people-profiles{
+    margin: 10px 20px;
+    background-color: rgb(240,240,240);
+    width: 100%;
+    border-radius: 2rem;
+    padding: 15px 10px;
+} 
+
+.other-people-profile{
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    margin: 5px;
+    padding: 15px 10px;
+    transition: 0.6s;
+    border-radius: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}.other-people-profile:hover{
+    background-color: rgb(220,220,220);
+}
+.other-people-profile-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 5rem;;
+}
+.other-people-profile-2{
+    display: flex;
+    flex-direction: column;
+}
+.other-people-follow-btn{
+    margin-left: 5px;
+    background-color: black;
+    font-family: 'Heebo', sans-serif;
+    color: white; 
+    width: 75px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}.other-people-follow-btn:hover{
+    background-color: rgb(15,15,15);
+}
+.other-people-profile-username{
+    color: rgb(60,60,60);
+}.other-people-profile-name{
+    transition : 0.6s; 
+}.other-people-profile-name:hover{
+    text-decoration: underline;
+}
+
+
+.rightmost-news{
+    margin: 5px 10px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 1.5rem;
+}.rightmost-news:hover{
+    background-color: rgb(220,220,220);
+}
+.rightmost-news-1{
+    display: flex;
+    flex-direction: column;
+} 
+.rightmost-news-1a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rightmost-news-2{
+    display: flex;
+    flex-direction: column;
+}
+.rightmost-small-heading{ 
+    color: rgb(90,90,90);
+    font-size: 15px;
+}
+.rightmost-heading{
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+}
+.rightmost-brief-description{ 
+    font-size: 13px;
+}
+.rightmost-image{
+    width : 75px; 
+    border-radius: 1rem;
+    margin-left: 10px;
+}

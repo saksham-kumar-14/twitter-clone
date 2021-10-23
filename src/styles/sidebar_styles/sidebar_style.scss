@@ -1,0 +1,73 @@
+$twitter-logo-width : 25px;
+$twitter-logo-height : 25px;
+$other-logos-width : 30px;
+$other-logos-height : 30px; 
+$hover-color : rgb(225,225,225);
+$hover-radius : 5rem; 
+
+#main-twitter-logo{
+    width: $twitter-logo-width;
+    height: $twitter-logo-height;  
+}   
+
+.sidebar-section{
+    padding: 10px 50px;
+    position: fixed;
+}
+
+.sidebar-option-image{
+    width: $other-logos-width;
+    height: $other-logos-height; 
+}
+.sidebar-option{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 30% 70%;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 5px; padding-bottom: 5px;
+    margin: 5px 0px;
+    transition: 0.4s;
+}.sidebar-option:hover{
+    background-color: $hover-color;
+    border-radius: $hover-radius;
+}
+
+#sidebar-tweet-btn{
+    background-color: #1291e0;
+    color: white;
+    width: 225px;
+    height: 45px;
+    border: none;
+    border-radius: 5rem; 
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: 0.4s;
+}#sidebar-tweet-btn:hover{
+    background-color: #0a9cf7;
+}
+
+#user-profile{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+    padding :10px;
+    width: 200px;
+}#user-profile:hover{
+    background-color: $hover-color;
+    border-radius: $hover-radius;
+}
+#sidebar-user-profile-image{
+    width: 50px; height: 50px;
+    border-radius: 5rem; 
+    margin-right: 8px;
+}
+#user-profile-details{
+    display: flex;
+    flex-direction: column;
+}
+#user-sidebar-username{
+    color: rgb(65,65,65);
+}
